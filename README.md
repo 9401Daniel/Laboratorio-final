@@ -1,48 +1,48 @@
-# 🏥 Sistema de Gestión Médica - MEJORADO
+# Sistema de Gestión Médica - MEJORADO
 
-## ✅ Mejoras implementadas
+## Mejoras implementadas
 
 ### 1. **Almacenamiento de datos**
-- ✅ Ahora guarda doctores, pacientes y citas en `localStorage`
-- ✅ Los datos persisten aunque cierres el navegador
+- Ahora guarda doctores, pacientes y citas en `localStorage`
+- Los datos persisten aunque cierres el navegador
 
 ### 2. **Listas funcionales**
-- ✅ Lista de Doctores muestra todos los doctores registrados
-- ✅ Lista de Pacientes muestra todos los pacientes registrados
-- ✅ **NUEVA:** Lista de Citas muestra todas las citas agendadas
+- Lista de Doctores muestra todos los doctores registrados
+- Lista de Pacientes muestra todos los pacientes registrados
+- **NUEVA:** Lista de Citas muestra todas las citas agendadas
 
 ### 3. **Validación mejorada**
-- ✅ Eliminadas las alertas molestas una por una
-- ✅ Ahora muestra un solo mensaje con TODOS los errores
-- ✅ Solo muestra alerta de éxito cuando todo está correcto
+- Eliminadas las alertas molestas una por una
+- Ahora muestra un solo mensaje con TODOS los errores
+- Solo muestra alerta de éxito cuando todo está correcto
 
 ### 4. **Conexión entre módulos**
-- ✅ El registro de citas valida que el paciente exista
-- ✅ Busca automáticamente doctores con la especialidad requerida
-- ✅ Asigna el doctor correspondiente a la cita
+- El registro de citas valida que el paciente exista
+- Busca automáticamente doctores con la especialidad requerida
+- Asigna el doctor correspondiente a la cita
 
 ### 5. **Funcionalidad de eliminación**
-- ✅ Botón para eliminar doctores
-- ✅ Botón para eliminar pacientes
-- ✅ Botón para cancelar citas
+- Botón para eliminar doctores
+- Botón para eliminar pacientes
+- Botón para cancelar citas
 
 ### 6. **Mejoras visuales**
-- ✅ CSS mejorado con mejor diseño
-- ✅ Tablas con estilos profesionales
-- ✅ Formularios más claros y organizados
-- ✅ Diseño responsive (se adapta a móviles)
+- CSS mejorado con mejor diseño
+- Tablas con estilos profesionales
+- Formularios más claros y organizados
+- Diseño responsive (se adapta a móviles)
 
 ### 7. **Nuevas páginas**
-- ✅ **ListaCitas.html** - Para ver todas las citas registradas
+- **ListaCitas.html** - Para ver todas las citas registradas
 
 ### 8. **Corrección de bugs**
-- ✅ Arreglados problemas de eventos duplicados
-- ✅ Validación correcta de campos
-- ✅ Regex de edad mejorado (1-120 años)
+- Arreglados problemas de eventos duplicados
+- Validación correcta de campos
+- Regex de edad mejorado (1-120 años)
 
 ---
 
-## 📁 Archivos del proyecto
+## Archivos del proyecto
 
 ### HTML (Páginas)
 - `Pacientesydoctores.html` - Página de inicio
@@ -66,7 +66,7 @@
 
 ---
 
-## 🚀 Cómo usar
+## Cómo usar
 
 ### 1. **Abrir el sistema**
 - Abre `Pacientesydoctores.html` en tu navegador
@@ -98,7 +98,7 @@
 
 ---
 
-## 💾 Datos almacenados
+## Datos almacenados
 
 Los datos se guardan en `localStorage` del navegador:
 - `doctores` - Array de doctores
@@ -113,33 +113,33 @@ localStorage.clear()
 
 ---
 
-## 🔧 Validaciones implementadas
+## Validaciones implementadas
 
 ### Doctores:
-- ✅ Nombre y apellido: solo letras y espacios
-- ✅ Cédula: 8, 10, 11 dígitos o formato 123456-12345
-- ✅ Especialidad: debe seleccionar una
-- ✅ Consultorio: exactamente 3 dígitos
-- ✅ Correo: formato válido de email
-- ✅ No permite cédulas duplicadas
+- Nombre y apellido: solo letras y espacios
+- Cédula: 8, 10, 11 dígitos o formato 123456-12345
+- Especialidad: debe seleccionar una
+- Consultorio: exactamente 3 dígitos
+- Correo: formato válido de email
+- No permite cédulas duplicadas
 
 ### Pacientes:
-- ✅ Nombre y apellido: solo letras y espacios
-- ✅ Cédula: 8, 10, 11 dígitos o formato 123456-12345
-- ✅ Edad: entre 1 y 120 años
-- ✅ Correo: formato válido de email
-- ✅ Teléfono: exactamente 10 dígitos
-- ✅ No permite cédulas duplicadas
+- Nombre y apellido: solo letras y espacios
+- Cédula: 8, 10, 11 dígitos o formato 123456-12345
+- Edad: entre 1 y 120 años
+- Correo: formato válido de email
+- Teléfono: exactamente 10 dígitos
+- No permite cédulas duplicadas
 
 ### Citas:
-- ✅ Verifica que el paciente esté registrado
-- ✅ Verifica que haya doctores con la especialidad
-- ✅ Asigna automáticamente el doctor disponible
-- ✅ Requiere fecha y hora
+- Verifica que el paciente esté registrado
+- Verifica que haya doctores con la especialidad
+- Asigna automáticamente el doctor disponible
+- Requiere fecha y hora
 
 ---
 
-## 🐛 Solución de problemas
+## Solución de problemas
 
 ### "No hay doctores disponibles"
 - Primero registra doctores con la especialidad que necesitas
@@ -153,7 +153,7 @@ localStorage.clear()
 
 ---
 
-## 📝 Notas importantes
+## Notas importantes
 
 1. **Orden recomendado:**
    - Primero registra doctores
@@ -178,7 +178,7 @@ localStorage.clear()
 
 ---
 
-## 🎯 Próximas mejoras sugeridas
+## Próximas mejoras sugeridas
 
 - [ ] Editar doctores, pacientes y citas
 - [ ] Buscar por nombre o cédula
@@ -189,5 +189,3 @@ localStorage.clear()
 - [ ] Estadísticas del sistema
 
 ---
-
-¡Disfruta tu sistema mejorado! 🚀
